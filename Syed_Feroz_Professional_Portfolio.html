@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Syed — Builder, Sales &amp; CRM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1c1613;
+    --bg-card:#251d19;
+    --line:#3a2e28;
+    --ink:#f1e8dd;
+    --ink-dim:#b9a999;
+    --accent:#c68a4e;
+    --accent-soft:#3a2b1e;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:inherit;}
+  html{scroll-padding-top:env(safe-area-inset-top,0px);}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:4.5rem 1.5rem 5rem;}
+  h1,h2{font-family:"Fraunces", ui-serif, Georgia, serif; font-weight:600; margin:0;}
+  .kicker{color:var(--accent); font-size:0.95rem; margin:0 0 0.6rem;}
+  h1{font-size:clamp(2.3rem,6vw,3.2rem); line-height:1.05; letter-spacing:-0.01em;}
+  .role{color:var(--ink-dim); font-size:1.1rem; margin-top:0.9rem; max-width:36ch;}
+  .lede{margin-top:1.6rem; max-width:58ch; font-size:1.05rem; color:var(--ink);}
+  section{margin-top:3.6rem;}
+  h2{font-size:1.5rem; margin-bottom:1.3rem;}
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:1rem;}
+  @media (max-width:600px){.grid{grid-template-columns:1fr;}}
+  .card{
+    background:var(--bg-card);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:1.3rem 1.4rem;
+    display:flex; flex-direction:column; gap:0.5rem;
+  }
+  .card .tag{font-size:0.82rem; color:var(--accent);}
+  .card h3{margin:0; font-size:1.12rem; font-family:"Fraunces", serif; font-weight:600;}
+  .card p{margin:0; color:var(--ink-dim); font-size:0.95rem; flex-grow:1;}
+  .card a{
+    margin-top:0.3rem; color:var(--accent); text-decoration:none;
+    font-size:0.92rem; font-weight:500; border-bottom:1px solid transparent;
+  }
+  .card a:hover{border-bottom-color:var(--accent);}
+  ul.plain{margin:0; padding:0; list-style:none;}
+  ul.plain li{
+    padding:0.55rem 0; border-bottom:1px solid var(--line);
+    color:var(--ink-dim); font-size:0.98rem;
+  }
+  ul.plain li:last-child{border-bottom:none;}
+  ul.plain li b{color:var(--ink); font-weight:500;}
+  .tags{display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.4rem;}
+  .tags span{
+    background:var(--accent-soft); color:var(--ink);
+    border-radius:6px; padding:0.35rem 0.7rem; font-size:0.86rem;
+  }
+  .skillgroup{margin-bottom:1.4rem;}
+  .skillgroup p{margin:0 0 0.5rem; color:var(--ink-dim); font-size:0.92rem;}
+  footer{
+    margin-top:4rem; padding-top:1.6rem; border-top:1px solid var(--line);
+    color:var(--ink-dim); font-size:0.92rem;
+  }
+  footer a{color:var(--accent); text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="kicker">Hyderabad, India</p>
+  <h1>Syed</h1>
+  <p class="role">Sales &amp; customer operations, twelve years — now building practical CRMs and business automation systems for small businesses.</p>
+  <p class="lede">I bring 12 years of hands-on sales and customer operations experience together with practical CRM and no-code building. I design tools around real business workflows — lead capture, customer tracking, appointments, orders, bookings and follow-ups — and use AI-assisted automation where it can reduce repetitive work.</p>
+
+  <section>
+    <h2>CRM &amp; business systems</h2>
+    <div class="grid">
+
+      <div class="card">
+        <span class="tag">Real estate · lead capture</span>
+        <h3>EstateHub</h3>
+        <p>A plot-finder for Telangana &amp; Andhra Pradesh buyers, built to turn browsing into a conversation with an advisor.</p>
+        <a href="https://estatehub-property-finder-slrcqv.sticklight.app" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Salon · CRM</span>
+        <h3>SalonFlow</h3>
+        <p>Appointment and client tracking built for how a salon actually runs its day, not how software imagines it.</p>
+        <a href="https://salonflow-crm-admin-p89m.bolt.host" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Event venues · SaaS</span>
+        <h3>HallConnect</h3>
+        <p>A booking dashboard for event halls — built for owners who need their calendar organised, not a manual.</p>
+        <a href="https://hallconnect-saas-fou-17oa.bolt.host" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Own business · showcase</span>
+        <h3>JS Leather Shoes</h3>
+        <p>A 3D product showcase for the family leather business — shoes, belts, wallets and bags, handcrafted since 2013.</p>
+        <a href="https://js-leather-shoes-3d-showcase-sdfamr.sticklight.app" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Own business · CRM</span>
+        <h3>JS Leather Flow</h3>
+        <p>The CRM that runs the leather business day to day — orders and customers tracked without a developer on call.</p>
+        <a href="https://js-leather-flow.base44.app" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Steel · CRM</span>
+        <h3>TRT Steel Sync</h3>
+        <p>A steel business management build for keeping operations, customers and workflow organised in one place.</p>
+        <a href="https://trt-steel-sync.base44.app" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Metal fabrication · business website</span>
+        <h3>Patel Forge Pro</h3>
+        <p>A business website for Patel's Fabrications, focused on metal fabrication services in Karnataka.</p>
+        <a href="https://patel-forge-pro.base44.app" target="_blank" rel="noopener">View live build</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>What I build</h2>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">CRM &amp; sales operations</span>
+        <h3>Customer &amp; lead workflows</h3>
+        <p>Lead capture, customer records, follow-ups, order tracking, appointment workflows and practical sales operations.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Automation</span>
+        <h3>Business workflow systems</h3>
+        <p>No-code systems that organise repetitive business processes and create a clearer operational workflow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Background</h2>
+    <ul class="plain">
+      <li><b>12 years</b> in Sales &amp; Customer Relationship roles, leather footwear industry (2012–present) — inside sales, order management, negotiation, complaint resolution, vendor coordination, billing</li>
+      <li>Runs <b>JS Leather Shoes</b>, a family leather goods business trading since 2013, sold both online and offline</li>
+      <li>Based in <b>Hyderabad</b>; fluent in English, Hindi, and Telugu</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skillgroup">
+      <p>Sales &amp; support</p>
+      <div class="tags">
+        <span>Customer Support</span><span>Inside Sales</span><span>Telecalling</span>
+        <span>Order Management</span><span>Negotiation</span><span>Complaint Resolution</span>
+        <span>Vendor Coordination</span><span>Billing</span>
+      </div>
+    </div>
+    <div class="skillgroup">
+      <p>Tools</p>
+      <div class="tags"><span>Zoho CRM</span><span>MS Word</span><span>Google Sheets</span></div>
+    </div>
+    <div class="skillgroup">
+      <p>Building</p>
+      <div class="tags">
+        <span>No-Code Website &amp; CRM Development</span><span>Bolt</span>
+        <span>Base44</span><span>Sticklight</span><span>AI-Powered Automation</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Reach me — <a href="mailto:syedferozoffical@gmail.com">syedferozoffical@gmail.com</a> · <a href="tel:+917702973734">+91 77029 73734</a>
+  </footer>
+
+</div>
+</body>
+</html>
